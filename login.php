@@ -49,11 +49,7 @@
                 <input type="password" class="form-control" name="password" placeholder="Password" required="required">				
             </div>
         </div>    
-        <!-- <div class="clearfix mb-3">
-            <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
-            <a href="#" class="float-right">Forgot Password?</a>
-        </div> -->
-
+        
         <div class="form-group ">
             <button type="submit" name="user_login" class="btn btn-primary login-btn btn-block">Sign in</button>
         </div>
