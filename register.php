@@ -37,7 +37,7 @@ if (isset($_POST['user_registration'])) {
         $specialChars = preg_match('@[^\w]@', $password);
 
         // Password validation
-        if (strlen($password) < 3) {
+        if (strlen($password) < 3 || !$number || !$uppercase || !$lowercase || !$specialChars) {
             $error = "Password must be at least 3 characters in length and must contain at least one number, one uppercase letter, one lowercase letter, and one special character.";
             error("signup.php", $error);
         } else {
